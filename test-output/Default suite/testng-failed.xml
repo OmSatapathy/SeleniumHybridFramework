@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Flipkart">
+      <class name="testng.Paytm">
         <methods>
-          <include name="launch"/>
-          <include name="findNumberofIteams"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="rechargeOption"/>
         </methods>
-      </class> <!-- testng.Flipkart -->
+      </class> <!-- testng.Paytm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
