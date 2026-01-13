@@ -6,8 +6,8 @@
       <class name="testng.Paytm">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyHomepage"/>
           <include name="setUp"/>
-          <include name="rechargeOption"/>
         </methods>
       </class> <!-- testng.Paytm -->
     </classes>
